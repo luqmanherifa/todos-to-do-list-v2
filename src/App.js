@@ -87,7 +87,7 @@ function App() {
   }
 
   return (
-    <div className="position width">
+    <div className="position width bg-box">
       <div className="center">
         <h1>React - To Do List</h1>
       </div>

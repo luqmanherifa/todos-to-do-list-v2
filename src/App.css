@@ -10,7 +10,7 @@ body {
   color: white;
   font-family: "Manrope";
   color: #065f46;
-  background-color: #a7f3d0;
+  background-color: #d1fae5;
   font-weight: 600;
 }
 
@@ -20,6 +20,8 @@ input {
   border-radius: 8px;
   padding: 8px 20px;
   border-style: solid;
+  color: #065f46;
+  font-size: 15px;
 }
 
 textarea:focus,
@@ -39,7 +41,8 @@ input[type]:focus,
 
 h1 {
   font-weight: 800;
-  height: 35px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .btn-add {
@@ -55,6 +58,10 @@ button {
   cursor: pointer;
   color: #d1fae5;
   border-color: #059669;
+  font-size: 13px;
+  font-family: "Manrope";
+  font-weight: 600;
+  padding: 2px 6px;
 }
 
 button:hover {
@@ -86,4 +93,16 @@ button:hover {
 
 .mr-checkbox {
   margin-right: 10px;
+}
+
+.bg-box {
+  border: 3px solid #6ee7b7;
+  border-radius: 20px;
+  padding: 40px 40px;
+  background-color: #a7f3d0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
