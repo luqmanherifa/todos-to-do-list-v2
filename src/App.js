@@ -121,7 +121,7 @@ function App() {
                   onChange={doneTodoHandler.bind(this, todo)}
                   className="mr-checkbox"
                 />
-                {todo.activity} ({todo.done ? "Finished" : "Progress"})
+                {todo.activity} ({todo.done ? "Finished" : "Ongoing"})
                 <button
                   className="ml-btn"
                   onClick={editTodoHandler.bind(this, todo)}
